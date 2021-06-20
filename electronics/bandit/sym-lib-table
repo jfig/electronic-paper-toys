@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bandido-eagle-import)(type Legacy)(uri ${KIPRJMOD}/bandido-eagle-import.lib)(options "")(descr ""))
+)

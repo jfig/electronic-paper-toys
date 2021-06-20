@@ -1,0 +1,504 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	4700 4700 4400 4700
+Wire Wire Line
+	4400 4700 4400 4800
+Text Label 4700 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	6600 5100 6600 4900
+Text Label 6600 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	7800 4300 7800 5100
+Text Label 7800 4300 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 5100 7200 4800
+Text Label 7200 5100 0    10   ~ 0
+GND
+Wire Wire Line
+	3800 4700 3800 4800
+Text Label 3800 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	4300 3400 4300 3200
+Wire Wire Line
+	4300 3200 4100 3200
+Text Label 4300 3400 0    10   ~ 0
+GND
+Wire Wire Line
+	4200 4400 4200 4300
+Text Label 4200 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 3800 4400 4300
+Wire Wire Line
+	4400 4300 4700 4300
+Text Label 4400 3800 0    10   ~ 0
+VCC
+Wire Wire Line
+	5500 4700 5500 4800
+Wire Wire Line
+	6300 4700 5500 4700
+Connection ~ 5500 4700
+Text Label 5500 4700 0    10   ~ 0
+VCC
+Wire Wire Line
+	6600 3100 6600 3200
+Text Label 6600 3100 0    10   ~ 0
+VCC
+Wire Wire Line
+	8100 3100 8100 3500
+Wire Wire Line
+	7800 3500 8100 3500
+Connection ~ 8100 3500
+Text Label 8100 3100 0    10   ~ 0
+VCC
+Wire Wire Line
+	3800 3900 3800 3800
+Text Label 3800 3900 0    10   ~ 0
+VCC
+Wire Wire Line
+	4100 3100 4400 3100
+Wire Wire Line
+	4400 3100 4400 3000
+Wire Wire Line
+	4600 3100 4400 3100
+Connection ~ 4400 3100
+Text Label 4100 3100 0    10   ~ 0
+VCC
+Wire Wire Line
+	7000 3200 7000 3100
+Text Label 7000 3200 0    10   ~ 0
+VCC
+Wire Wire Line
+	6600 3600 6600 3700
+Wire Wire Line
+	6600 4000 6600 4100
+Wire Wire Line
+	5500 4100 6600 4100
+Connection ~ 6600 4100
+Wire Wire Line
+	6600 4500 6600 4600
+Wire Wire Line
+	5500 4500 5600 4500
+Wire Wire Line
+	5600 4500 5700 4500
+Wire Wire Line
+	4700 4100 4600 4100
+Wire Wire Line
+	4600 4100 4600 4000
+Wire Wire Line
+	4600 4000 4600 3800
+Wire Wire Line
+	4600 3800 5600 3800
+Wire Wire Line
+	5600 3800 5600 4500
+Wire Wire Line
+	4200 4000 4600 4000
+Connection ~ 5600 4500
+Connection ~ 4600 4000
+Wire Wire Line
+	5500 4300 6100 4300
+Wire Wire Line
+	6100 4300 6300 4300
+Wire Wire Line
+	6100 4500 6100 4300
+Connection ~ 6100 4300
+Wire Wire Line
+	7800 3600 7800 3900
+Wire Wire Line
+	8100 3700 8100 3900
+Wire Wire Line
+	8100 3900 7800 3900
+Connection ~ 7800 3900
+Wire Wire Line
+	7600 4100 7200 4100
+Wire Wire Line
+	7200 4100 7200 4200
+Wire Wire Line
+	7200 4000 7200 4100
+Connection ~ 7200 4100
+Wire Wire Line
+	3800 4200 3800 4300
+Wire Wire Line
+	7000 3600 7000 3800
+$Comp
+L xerife-eagle-import:555N IC1
+U 1 1 06F92037
+P 5100 4400
+F 0 "IC1" H 4800 4830 59  0000 L BNN
+F 1 "555N" H 4800 3895 59  0000 L BNN
+F 2 "xerife:DIL08-ROUND" H 5100 4400 50  0001 C CNN
+F 3 "" H 5100 4400 50  0001 C CNN
+	1    5100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:VCC #P+01
+U 1 1 BCDF72C5
+P 4400 3700
+F 0 "#P+01" H 4400 3700 50  0001 C CNN
+F 1 "VCC" V 4300 3600 59  0000 L BNN
+F 2 "" H 4400 3700 50  0001 C CNN
+F 3 "" H 4400 3700 50  0001 C CNN
+	1    4400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 4400 4900
+F 0 "#GND01" H 4400 4900 50  0001 C CNN
+F 1 "GND" H 4300 4800 59  0000 L BNN
+F 2 "" H 4400 4900 50  0001 C CNN
+F 3 "" H 4400 4900 50  0001 C CNN
+	1    4400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:VCC #P+02
+U 1 1 339DE9D3
+P 5500 4900
+F 0 "#P+02" H 5500 4900 50  0001 C CNN
+F 1 "VCC" V 5400 4800 59  0000 L BNN
+F 2 "" H 5500 4900 50  0001 C CNN
+F 3 "" H 5500 4900 50  0001 C CNN
+	1    5500 4900
+	-1   0    0    1   
+$EndComp
+$Comp
+L xerife-eagle-import:RESISTORPTH-1_4W R1
+U 1 1 8C0F347B
+P 6600 3400
+F 0 "R1" H 6450 3459 59  0000 L BNN
+F 1 "470R" H 6450 3270 59  0000 L BNN
+F 2 "xerife:AXIAL-0.4" H 6600 3400 50  0001 C CNN
+F 3 "" H 6600 3400 50  0001 C CNN
+	1    6600 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L xerife-eagle-import:RESISTORPTH-1_4W R2
+U 1 1 B40906EE
+P 6600 4300
+F 0 "R2" H 6450 4359 59  0000 L BNN
+F 1 "470R" H 6450 4170 59  0000 L BNN
+F 2 "xerife:AXIAL-0.4" H 6600 4300 50  0001 C CNN
+F 3 "" H 6600 4300 50  0001 C CNN
+	1    6600 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L xerife-eagle-import:RESISTORPTH-1_4W R3
+U 1 1 841CF837
+P 3800 4500
+F 0 "R3" H 3650 4559 59  0000 L BNN
+F 1 "150R" H 3650 4370 59  0000 L BNN
+F 2 "xerife:AXIAL-0.4" H 3800 4500 50  0001 C CNN
+F 3 "" H 3800 4500 50  0001 C CNN
+	1    3800 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L xerife-eagle-import:LED5MM LED1
+U 1 1 D5D4A691
+P 6600 3800
+F 0 "LED1" V 6740 3620 59  0000 L BNN
+F 1 "LED5MM" V 6825 3620 59  0000 L BNN
+F 2 "xerife:LED5MM" H 6600 3800 50  0001 C CNN
+F 3 "" H 6600 3800 50  0001 C CNN
+	1    6600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:LED5MM LED2
+U 1 1 6A31474D
+P 6600 4700
+F 0 "LED2" V 6740 4520 59  0000 L BNN
+F 1 "LED5MM" V 6825 4520 59  0000 L BNN
+F 2 "xerife:LED5MM" H 6600 4700 50  0001 C CNN
+F 3 "" H 6600 4700 50  0001 C CNN
+	1    6600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:VCC #P+03
+U 1 1 00F05DF6
+P 6600 3000
+F 0 "#P+03" H 6600 3000 50  0001 C CNN
+F 1 "VCC" V 6500 2900 59  0000 L BNN
+F 2 "" H 6600 3000 50  0001 C CNN
+F 3 "" H 6600 3000 50  0001 C CNN
+	1    6600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 6600 5200
+F 0 "#GND02" H 6600 5200 50  0001 C CNN
+F 1 "GND" H 6500 5100 59  0000 L BNN
+F 2 "" H 6600 5200 50  0001 C CNN
+F 3 "" H 6600 5200 50  0001 C CNN
+	1    6600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:RESISTORPTH-1_4W R4
+U 1 1 B6EDC05E
+P 5900 4500
+F 0 "R4" H 5750 4559 59  0000 L BNN
+F 1 "330K" H 5750 4370 59  0000 L BNN
+F 2 "xerife:AXIAL-0.4" H 5900 4500 50  0001 C CNN
+F 3 "" H 5900 4500 50  0001 C CNN
+	1    5900 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L xerife-eagle-import:RESISTORPTH-1_4W R5
+U 1 1 0764E48A
+P 6300 4500
+F 0 "R5" H 6150 4559 59  0000 L BNN
+F 1 "10k" H 6150 4370 59  0000 L BNN
+F 2 "xerife:AXIAL-0.4" H 6300 4500 50  0001 C CNN
+F 3 "" H 6300 4500 50  0001 C CNN
+	1    6300 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L xerife-eagle-import:TIP120 Q1
+U 1 1 7A211019
+P 7700 4100
+F 0 "Q1" H 7900 4200 59  0000 L BNN
+F 1 "TIP120" H 7900 4100 59  0000 L BNN
+F 2 "xerife:TO220AH" H 7700 4100 50  0001 C CNN
+F 3 "" H 7700 4100 50  0001 C CNN
+	1    7700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:M025MM JP1
+U 1 1 2F430EF2
+P 3800 3200
+F 0 "JP1" H 3700 3430 59  0000 L BNN
+F 1 "M025MM" H 3700 3000 59  0000 L BNN
+F 2 "xerife:SCREWTERMINAL-5MM-2" H 3800 3200 50  0001 C CNN
+F 3 "" H 3800 3200 50  0001 C CNN
+	1    3800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:M021X02_NO_SILK MOTOR1
+U 1 1 00A41028
+P 7500 3600
+F 0 "MOTOR1" H 7400 3830 59  0000 L BNN
+F 1 "M021X02_NO_SILK" H 7400 3400 59  0000 L BNN
+F 2 "xerife:1X02_NO_SILK" H 7500 3600 50  0001 C CNN
+F 3 "" H 7500 3600 50  0001 C CNN
+	1    7500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:1N4004 D1
+U 1 1 8D141E84
+P 8100 3600
+F 0 "D1" H 8200 3619 59  0000 L BNN
+F 1 "1N4004" H 8200 3509 59  0000 L BNN
+F 2 "xerife:DO41-10" H 8100 3600 50  0001 C CNN
+F 3 "" H 8100 3600 50  0001 C CNN
+	1    8100 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L xerife-eagle-import:PHOTOCELLPTH-KIT R6
+U 1 1 AC3018AB
+P 7200 4500
+F 0 "R6" H 7000 4620 59  0000 L BNN
+F 1 "LDR" H 7000 4300 59  0000 L BNN
+F 2 "xerife:PHOTOCELL-KIT" H 7200 4500 50  0001 C CNN
+F 3 "" H 7200 4500 50  0001 C CNN
+	1    7200 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 7200 5200
+F 0 "#GND03" H 7200 5200 50  0001 C CNN
+F 1 "GND" H 7100 5100 59  0000 L BNN
+F 2 "" H 7200 5200 50  0001 C CNN
+F 3 "" H 7200 5200 50  0001 C CNN
+	1    7200 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND04
+U 1 1 D896219B
+P 7800 5200
+F 0 "#GND04" H 7800 5200 50  0001 C CNN
+F 1 "GND" H 7700 5100 59  0000 L BNN
+F 2 "" H 7800 5200 50  0001 C CNN
+F 3 "" H 7800 5200 50  0001 C CNN
+	1    7800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:VCC #P+04
+U 1 1 A7FDB2D8
+P 8100 3000
+F 0 "#P+04" H 8100 3000 50  0001 C CNN
+F 1 "VCC" V 8000 2900 59  0000 L BNN
+F 2 "" H 8100 3000 50  0001 C CNN
+F 3 "" H 8100 3000 50  0001 C CNN
+	1    8100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:TRIMPOTPTH POT1
+U 1 1 A7446024
+P 7000 4000
+F 0 "POT1" H 6550 4059 59  0000 L BNN
+F 1 "47k" H 6850 3870 59  0000 L BNN
+F 2 "xerife:TRIM_POT_PTH" H 7000 4000 50  0001 C CNN
+F 3 "" H 7000 4000 50  0001 C CNN
+	1    7000 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L xerife-eagle-import:VCC #P+05
+U 1 1 33ACA7EC
+P 7000 3000
+F 0 "#P+05" H 7000 3000 50  0001 C CNN
+F 1 "VCC" V 6900 2900 59  0000 L BNN
+F 2 "" H 7000 3000 50  0001 C CNN
+F 3 "" H 7000 3000 50  0001 C CNN
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:SFH482 D2
+U 1 1 20478EC3
+P 3800 4000
+F 0 "D2" V 3940 3820 59  0000 L BNN
+F 1 "SFH482" V 4025 3820 59  0000 L BNN
+F 2 "xerife:SFH482" H 3800 4000 50  0001 C CNN
+F 3 "" H 3800 4000 50  0001 C CNN
+	1    3800 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 3800 4900
+F 0 "#GND05" H 3800 4900 50  0001 C CNN
+F 1 "GND" H 3700 4800 59  0000 L BNN
+F 2 "" H 3800 4900 50  0001 C CNN
+F 3 "" H 3800 4900 50  0001 C CNN
+	1    3800 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:VCC #P+06
+U 1 1 B0F39303
+P 3800 3700
+F 0 "#P+06" H 3800 3700 50  0001 C CNN
+F 1 "VCC" V 3700 3600 59  0000 L BNN
+F 2 "" H 3800 3700 50  0001 C CNN
+F 3 "" H 3800 3700 50  0001 C CNN
+	1    3800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:VCC #P+07
+U 1 1 BC2DCEA9
+P 4400 2900
+F 0 "#P+07" H 4400 2900 50  0001 C CNN
+F 1 "VCC" V 4300 2800 59  0000 L BNN
+F 2 "" H 4400 2900 50  0001 C CNN
+F 3 "" H 4400 2900 50  0001 C CNN
+	1    4400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 4300 3500
+F 0 "#GND06" H 4300 3500 50  0001 C CNN
+F 1 "GND" H 4200 3400 59  0000 L BNN
+F 2 "" H 4300 3500 50  0001 C CNN
+F 3 "" H 4300 3500 50  0001 C CNN
+	1    4300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:CPOL-EUE5-5 C1
+U 1 1 1C3B7E2E
+P 4600 3200
+F 0 "C1" H 4645 3219 59  0000 L BNN
+F 1 "10uf" H 4645 3019 59  0000 L BNN
+F 2 "xerife:E5-5" H 4600 3200 50  0001 C CNN
+F 3 "" H 4600 3200 50  0001 C CNN
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 4600 3500
+F 0 "#GND07" H 4600 3500 50  0001 C CNN
+F 1 "GND" H 4500 3400 59  0000 L BNN
+F 2 "" H 4600 3500 50  0001 C CNN
+F 3 "" H 4600 3500 50  0001 C CNN
+	1    4600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:CPOL-EUE5-5 C2
+U 1 1 D27F100D
+P 4200 4100
+F 0 "C2" H 4245 4119 59  0000 L BNN
+F 1 "1uf" H 4245 3919 59  0000 L BNN
+F 2 "xerife:E5-5" H 4200 4100 50  0001 C CNN
+F 3 "" H 4200 4100 50  0001 C CNN
+	1    4200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 4200 4500
+F 0 "#GND08" H 4200 4500 50  0001 C CNN
+F 1 "GND" H 4100 4400 59  0000 L BNN
+F 2 "" H 4200 4500 50  0001 C CNN
+F 3 "" H 4200 4500 50  0001 C CNN
+	1    4200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L xerife-eagle-import:RESISTORPTH-1_4W R7
+U 1 1 A57FCB1C
+P 7000 3400
+F 0 "R7" H 6850 3459 59  0000 L BNN
+F 1 "4K7" H 6850 3270 59  0000 L BNN
+F 2 "xerife:AXIAL-0.4" H 7000 3400 50  0001 C CNN
+F 3 "" H 7000 3400 50  0001 C CNN
+	1    7000 3400
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

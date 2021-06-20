@@ -1,0 +1,304 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# bandido-eagle-import_555N
+#
+DEF bandido-eagle-import_555N IC 0 40 Y Y 1 L N
+F0 "IC" -300 430 59 H V L BNN
+F1 "bandido-eagle-import_555N" -300 -505 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -300 -400 300 -400 N
+P 2 1 0 0 -300 400 -300 -400 N
+P 2 1 0 0 300 -400 300 400 N
+P 2 1 0 0 300 400 -300 400 N
+X GND 1 -400 -300 100 R 50 50 1 0 W
+X TR 2 -400 300 100 R 50 50 1 0 I
+X Q 3 400 300 100 L 50 50 1 0 O
+X R 4 -400 100 100 R 50 50 1 0 I I
+X CV 5 -400 -100 100 R 50 50 1 0 I
+X THR 6 400 -100 100 L 50 50 1 0 I
+X DIS 7 400 100 100 L 50 50 1 0 I
+X V+ 8 400 -300 100 L 50 50 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_A5L-LOC
+#
+DEF bandido-eagle-import_A5L-LOC #FRAME 0 40 Y Y 1 L N
+F0 "#FRAME" 0 0 50 H I C CNN
+F1 "bandido-eagle-import_A5L-LOC" 0 0 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 5550 600 100 0 1 0 >DRAWING_NAME Normal 0 L B
+T 0 5550 400 90 0 1 0 >LAST_DATE_TIME Normal 0 L B
+T 0 6075 200 100 0 1 0 >SHEET Normal 0 L B
+T 0 5540 195 100 0 1 0 Sheet: Normal 0 L B
+P 2 1 0 0 3350 150 3350 950 N
+P 2 1 0 0 3350 950 5475 950 N
+P 2 1 0 0 5475 350 5475 150 N
+P 2 1 0 0 5475 350 5475 550 N
+P 2 1 0 0 5475 550 5475 750 N
+P 2 1 0 0 5475 550 7100 550 N
+P 2 1 0 0 5475 750 5475 950 N
+P 2 1 0 0 5475 750 7100 750 N
+P 2 1 0 0 5475 950 7100 950 N
+P 2 1 0 0 6700 150 6700 350 N
+P 2 1 0 0 6700 350 5475 350 N
+P 2 1 0 0 6700 350 7100 350 N
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_BC337
+#
+DEF bandido-eagle-import_BC337 Q 0 40 Y Y 1 L N
+F0 "Q" 200 100 59 H V L BNN
+F1 "bandido-eagle-import_BC337" 200 0 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -15 -100 15 100 1 0 0 F
+P 2 1 0 0 0 0 80 -80 N
+P 2 1 0 0 40 -70 70 -40 N
+P 2 1 0 0 50 -70 80 -80 N
+P 2 1 0 0 60 -70 70 -60 N
+P 2 1 0 0 70 -50 50 -70 N
+P 2 1 0 0 70 -40 90 -90 N
+P 2 1 0 0 80 -80 70 -50 N
+P 2 1 0 0 80 -80 90 -90 N
+P 2 1 0 0 90 -90 40 -70 N
+P 2 1 0 0 90 -90 100 -100 N
+P 2 1 0 0 100 100 0 0 N
+X B B -100 0 100 R 0 0 1 0 P
+X C C 100 200 100 D 0 0 1 0 P
+X E E 100 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_BPX65
+#
+DEF bandido-eagle-import_BPX65 D 0 40 Y Y 1 L N
+F0 "D" 140 -170 59 V V L BNN
+F1 "bandido-eagle-import_BPX65" 225 -170 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -150 -75 -95 -20 N
+P 2 1 0 0 -145 -120 -90 -65 N
+P 2 1 0 0 -130 -35 -110 -55 N
+P 2 1 0 0 -125 -80 -105 -100 N
+P 2 1 0 0 -110 -55 -95 -20 N
+P 2 1 0 0 -105 -100 -90 -65 N
+P 2 1 0 0 -95 -20 -130 -35 N
+P 2 1 0 0 -90 -65 -125 -80 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 0 100 0 0 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+X A A 0 100 0 D 0 0 1 0 P
+X C K 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_C-EU025-024X044
+#
+DEF bandido-eagle-import_C-EU025-024X044 C 0 40 Y Y 1 L N
+F0 "C" 60 15 59 H V L BNN
+F1 "bandido-eagle-import_C-EU025-024X044" 60 -185 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -80 -80 80 -60 1 0 0 F
+S -80 -40 80 -20 1 0 0 F
+P 2 1 0 0 0 -100 0 -80 N
+P 2 1 0 0 0 0 0 -20 N
+X 1 1 0 100 100 D 0 0 1 0 P
+X 2 2 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_CPOL-EUE5-4
+#
+DEF bandido-eagle-import_CPOL-EUE5-4 C 0 40 Y Y 1 L N
+F0 "C" 45 19 59 H V L BNN
+F1 "bandido-eagle-import_CPOL-EUE5-4" 45 -181 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 900 -23 16 42 0 1 0 + Normal 0 L B
+S -65 -100 65 -65 1 0 0 F
+P 2 1 0 0 -60 -35 60 -35 N
+P 2 1 0 0 -60 0 -60 -35 N
+P 2 1 0 0 -60 0 60 0 N
+P 2 1 0 0 60 -35 60 0 N
+X + + 0 100 100 D 0 0 1 0 P
+X - - 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_GND
+#
+DEF bandido-eagle-import_GND #GND 0 40 Y Y 1 L P
+F0 "#GND" 0 0 50 H I C CNN
+F1 "bandido-eagle-import_GND" -100 -100 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -75 0 75 0 N
+X GND 1 0 100 100 D 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_LED5MM
+#
+DEF bandido-eagle-import_LED5MM LED 0 40 Y Y 1 L N
+F0 "LED" 140 -180 59 V V L BNN
+F1 "bandido-eagle-import_LED5MM" 225 -180 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -80 -30 -135 -85 N
+P 2 1 0 0 -75 -75 -130 -130 N
+P 2 1 0 0 0 -100 -50 -100 N
+P 2 1 0 0 0 -100 -50 0 N
+P 2 1 0 0 0 0 -50 0 N
+P 2 1 0 0 0 0 0 -100 N
+P 2 1 0 0 50 -100 0 -100 N
+P 2 1 0 0 50 0 0 -100 N
+P 2 1 0 0 50 0 0 0 N
+P 3 1 0 0 -135 -85 -120 -50 -100 -70 F
+P 3 1 0 0 -130 -130 -115 -95 -95 -115 F
+X A A 0 100 100 D 0 0 1 0 P
+X C K 0 -200 100 U 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_M025MM
+#
+DEF bandido-eagle-import_M025MM JP 0 40 Y Y 1 L N
+F0 "JP" -100 230 59 H V L BNN
+F1 "bandido-eagle-import_M025MM" -100 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 200 -100 -100 N
+P 2 1 0 0 -100 200 150 200 N
+P 2 1 0 0 50 0 100 0 N
+P 2 1 0 0 50 100 100 100 N
+P 2 1 0 0 150 -100 -100 -100 N
+P 2 1 0 0 150 -100 150 200 N
+X 1 1 300 0 200 L 50 0 1 0 P
+X 2 2 300 100 200 L 50 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_PHOTOCELLPTH-KIT
+#
+DEF bandido-eagle-import_PHOTOCELLPTH-KIT R 0 40 Y Y 1 L N
+F0 "R" -200 120 59 H V L BNN
+F1 "bandido-eagle-import_PHOTOCELLPTH-KIT" -200 -200 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -100 0 100 901 -901 1 0 10 N -100 100 -100 -100
+A -50 -45 15 901 -901 1 0 10 N -50 -30 -50 -60
+A -50 15 15 901 -901 1 0 10 N -50 30 -50 0
+A -40 80 20 1800 -900 1 0 10 N -60 80 -40 60
+A 40 -80 20 0 900 1 0 10 N 60 -80 40 -60
+A 50 -15 15 -899 899 1 0 10 N 50 -30 50 0
+A 50 45 15 -899 899 1 0 10 N 50 30 50 60
+A 100 0 100 -899 899 1 0 10 N 100 -100 100 100
+P 2 1 0 0 -60 100 -100 100 N
+P 2 1 0 0 -60 100 -60 80 N
+P 2 1 0 0 -50 -60 40 -60 N
+P 2 1 0 0 -50 -30 50 -30 N
+P 2 1 0 0 -50 0 50 0 N
+P 2 1 0 0 -50 30 50 30 N
+P 2 1 0 0 -40 60 50 60 N
+P 2 1 0 0 60 -100 -100 -100 N
+P 2 1 0 0 60 -80 60 -100 N
+P 2 1 0 0 100 -100 60 -100 N
+P 2 1 0 0 100 100 -60 100 N
+X P$1 1 -300 0 100 R 0 0 1 0 B
+X P$2 2 300 0 100 L 0 0 1 0 B
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_R-EU_0204_7
+#
+DEF bandido-eagle-import_R-EU_0204_7 R 0 40 Y Y 1 L N
+F0 "R" -150 59 59 H V L BNN
+F1 "bandido-eagle-import_R-EU_0204_7" -150 -130 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 -35 -100 35 N
+P 2 1 0 0 -100 -35 100 -35 N
+P 2 1 0 0 100 -35 100 35 N
+P 2 1 0 0 100 35 -100 35 N
+X 1 1 -200 0 100 R 0 0 1 0 P
+X 2 2 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_SPEAKER_AL11P
+#
+DEF bandido-eagle-import_SPEAKER_AL11P SP 0 40 Y Y 1 L N
+F0 "SP" -150 250 59 H V L BNN
+F1 "bandido-eagle-import_SPEAKER_AL11P" -150 -125 59 H V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 -100 0 -75 0 N
+P 2 1 0 0 -75 -25 -75 0 N
+P 2 1 0 0 -75 -25 75 -25 N
+P 2 1 0 0 -75 0 -75 100 N
+P 2 1 0 0 -75 100 -200 200 N
+P 2 1 0 0 75 -25 75 0 N
+P 2 1 0 0 75 0 75 100 N
+P 2 1 0 0 75 100 -75 100 N
+P 2 1 0 0 75 100 200 200 N
+P 2 1 0 0 100 0 75 0 N
+P 2 1 0 0 200 200 -200 200 N
+X + + -200 0 100 R 0 0 1 0 P
+X - - 200 0 100 L 0 0 1 0 P
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_VCC
+#
+DEF bandido-eagle-import_VCC #P+ 0 40 Y Y 1 L P
+F0 "#P+" 0 0 50 H I C CNN
+F1 "bandido-eagle-import_VCC" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+X VCC 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+# bandido-eagle-import_VDD
+#
+DEF bandido-eagle-import_VDD #VDD 0 40 Y Y 1 L P
+F0 "#VDD" 0 0 50 H I C CNN
+F1 "bandido-eagle-import_VDD" -100 -100 59 V V L BNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 1 0 0 0 0 -50 -75 N
+P 2 1 0 0 0 50 -50 -75 N
+P 2 1 0 0 50 -75 0 0 N
+P 2 1 0 0 50 -75 0 50 N
+X VDD 1 0 -100 100 U 0 0 1 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

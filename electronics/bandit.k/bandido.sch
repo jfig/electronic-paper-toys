@@ -1,0 +1,751 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3100 4100 3000 4100
+Wire Wire Line
+	3000 4100 3000 4200
+Text Label 3100 4100 0    10   ~ 0
+GND
+Wire Wire Line
+	4700 4700 4700 4600
+Text Label 4700 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	4400 4700 4400 4400
+Text Label 4400 4700 0    10   ~ 0
+GND
+Wire Wire Line
+	5400 4400 5400 4300
+Text Label 5400 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 4600 6200 4500
+Text Label 6200 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	5100 4400 5100 4300
+Text Label 5100 4400 0    10   ~ 0
+GND
+Wire Wire Line
+	6200 2900 6000 2900
+Wire Wire Line
+	6000 2600 6200 2600
+Wire Wire Line
+	6200 2600 6200 2900
+Wire Wire Line
+	6000 2300 6200 2300
+Wire Wire Line
+	6200 2300 6200 2600
+Wire Wire Line
+	6200 2600 6500 2600
+Connection ~ 6200 2600
+Text Label 6200 2900 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 4000 7100 4000
+Wire Wire Line
+	7100 4000 7100 4100
+Text Label 7200 4000 0    10   ~ 0
+GND
+Wire Wire Line
+	6800 4100 6800 3700
+Text Label 6800 4100 0    10   ~ 0
+GND
+Wire Wire Line
+	8200 4600 8200 4500
+Wire Wire Line
+	8200 4500 8500 4500
+Text Label 8200 4600 0    10   ~ 0
+GND
+Wire Wire Line
+	3700 2800 3700 2700
+Wire Wire Line
+	3400 2600 3400 2800
+Wire Wire Line
+	3400 2800 3700 2800
+Connection ~ 3700 2800
+Text Label 3700 2800 0    10   ~ 0
+GND
+Wire Wire Line
+	4700 4300 4700 4200
+Wire Wire Line
+	4700 3700 4700 3800
+Wire Wire Line
+	4700 3200 4700 3300
+Text Label 4700 3200 0    10   ~ 0
+VCC
+Wire Wire Line
+	3900 4100 4000 4100
+Text Label 3900 4100 0    10   ~ 0
+VCC
+Wire Wire Line
+	3100 3700 2900 3700
+Text Label 3100 3700 0    10   ~ 0
+VCC
+Wire Wire Line
+	5400 3400 5400 3300
+Text Label 5400 3400 0    10   ~ 0
+VCC
+Wire Wire Line
+	6200 3300 6200 3600
+Text Label 6200 3300 0    10   ~ 0
+VCC
+Wire Wire Line
+	3700 2400 3700 2300
+Wire Wire Line
+	3700 2300 3700 2200
+Wire Wire Line
+	3700 2300 3400 2300
+Wire Wire Line
+	3400 2300 3400 2500
+Connection ~ 3700 2300
+Text Label 3700 2400 0    10   ~ 0
+VCC
+Wire Wire Line
+	4500 3500 4400 3500
+Wire Wire Line
+	3900 3900 4400 3900
+Wire Wire Line
+	4400 3900 4400 3500
+Wire Wire Line
+	3100 3500 3000 3500
+Wire Wire Line
+	3000 3500 3000 3200
+Wire Wire Line
+	3000 3200 4400 3200
+Wire Wire Line
+	4400 3200 4400 3500
+Wire Wire Line
+	4400 4100 4400 3900
+Connection ~ 4400 3500
+Connection ~ 4400 3900
+Wire Wire Line
+	4000 3500 3900 3500
+Wire Wire Line
+	5400 3900 5400 3800
+Wire Wire Line
+	5400 3800 5400 3700
+Wire Wire Line
+	5500 3800 5400 3800
+Wire Wire Line
+	5100 4000 5100 3800
+Wire Wire Line
+	5100 3800 5400 3800
+Connection ~ 5400 3800
+Wire Wire Line
+	6000 3800 5900 3800
+Wire Wire Line
+	6500 4000 6500 4100
+Wire Wire Line
+	6200 4100 6200 4000
+Wire Wire Line
+	6500 4100 6200 4100
+Connection ~ 6200 4100
+Text Label 6500 4000 0    10   ~ 0
+VDD
+Wire Wire Line
+	4800 2500 4800 2600
+Wire Wire Line
+	5200 2900 5000 2900
+Wire Wire Line
+	5000 2900 5000 2600
+Wire Wire Line
+	5000 2600 5000 2300
+Wire Wire Line
+	5200 2300 5000 2300
+Wire Wire Line
+	5200 2600 5000 2600
+Wire Wire Line
+	4800 2600 5000 2600
+Connection ~ 5000 2600
+Text Label 4800 2500 0    10   ~ 0
+VDD
+Wire Wire Line
+	7100 3600 7200 3600
+Text Label 7100 3600 0    10   ~ 0
+VDD
+Wire Wire Line
+	8100 4100 8100 4000
+Wire Wire Line
+	8100 4000 8000 4000
+Text Label 8100 4100 0    10   ~ 0
+VDD
+Wire Wire Line
+	5600 2300 5700 2300
+Wire Wire Line
+	5600 2600 5700 2600
+Wire Wire Line
+	5600 2900 5700 2900
+Wire Wire Line
+	7200 3400 7100 3400
+Wire Wire Line
+	7100 3400 7100 3200
+Wire Wire Line
+	7100 3200 8200 3200
+Wire Wire Line
+	6800 3400 7100 3400
+Wire Wire Line
+	8000 3800 8200 3800
+Wire Wire Line
+	8200 3800 8200 3200
+Connection ~ 7100 3400
+Connection ~ 8200 3200
+Wire Wire Line
+	8900 3900 8900 3800
+Wire Wire Line
+	8000 3400 8600 3400
+Wire Wire Line
+	8600 3400 8600 3900
+Wire Wire Line
+	8600 3900 8900 3900
+Connection ~ 8900 3900
+Wire Wire Line
+	8600 3200 8900 3200
+Wire Wire Line
+	8900 4500 8900 4200
+$Comp
+L bandido-eagle-import:555N IC1
+U 1 1 06F92037
+P 3500 3800
+F 0 "IC1" H 3200 4230 59  0000 L BNN
+F 1 "555N" H 3200 3295 59  0000 L BNN
+F 2 "bandido:DIL08-ROUND" H 3500 3800 50  0001 C CNN
+F 3 "" H 3500 3800 50  0001 C CNN
+	1    3500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:555N IC2
+U 1 1 541775CA
+P 7600 3700
+F 0 "IC2" H 7300 4130 59  0000 L BNN
+F 1 "555N" H 7300 3195 59  0000 L BNN
+F 2 "bandido:DIL08-ROUND" H 7600 3700 50  0001 C CNN
+F 3 "" H 7600 3700 50  0001 C CNN
+	1    7600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:BC337 T1
+U 1 1 011D2A96
+P 4600 3500
+F 0 "T1" H 4800 3600 59  0000 L BNN
+F 1 "BC337" H 4800 3500 59  0000 L BNN
+F 2 "bandido:SOT54A" H 4600 3500 50  0001 C CNN
+F 3 "" H 4600 3500 50  0001 C CNN
+	1    4600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:LED5MM RED1
+U 1 1 9AD69087
+P 4700 4400
+F 0 "RED1" V 4840 4220 59  0000 L BNN
+F 1 "LED5MM" V 4925 4220 59  0000 L BNN
+F 2 "bandido:LED5MM" H 4700 4400 50  0001 C CNN
+F 3 "" H 4700 4400 50  0001 C CNN
+	1    4700 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:LED5MM LED2
+U 1 1 6A31474D
+P 5800 2300
+F 0 "LED2" V 5940 2120 59  0000 L BNN
+F 1 "LED5MM" V 6025 2120 59  0000 L BNN
+F 2 "bandido:LED5MM" H 5800 2300 50  0001 C CNN
+F 3 "" H 5800 2300 50  0001 C CNN
+	1    5800 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bandido-eagle-import:LED5MM LED3
+U 1 1 57046BE5
+P 5800 2600
+F 0 "LED3" V 5940 2420 59  0000 L BNN
+F 1 "LED5MM" V 6025 2420 59  0000 L BNN
+F 2 "bandido:LED5MM" H 5800 2600 50  0001 C CNN
+F 3 "" H 5800 2600 50  0001 C CNN
+	1    5800 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bandido-eagle-import:LED5MM LED4
+U 1 1 0D206A19
+P 5800 2900
+F 0 "LED4" V 5940 2720 59  0000 L BNN
+F 1 "LED5MM" V 6025 2720 59  0000 L BNN
+F 2 "bandido:LED5MM" H 5800 2900 50  0001 C CNN
+F 3 "" H 5800 2900 50  0001 C CNN
+	1    5800 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bandido-eagle-import:BPX65 D1
+U 1 1 8D141E84
+P 5400 3500
+F 0 "D1" V 5540 3330 59  0000 L BNN
+F 1 "BPX65" V 5625 3330 59  0000 L BNN
+F 2 "bandido:BPX65" H 5400 3500 50  0001 C CNN
+F 3 "" H 5400 3500 50  0001 C CNN
+	1    5400 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R1
+U 1 1 D64CD49D
+P 4200 3500
+F 0 "R1" H 4050 3559 59  0000 L BNN
+F 1 "33K" H 4050 3370 59  0000 L BNN
+F 2 "bandido:0204_7" H 4200 3500 50  0001 C CNN
+F 3 "" H 4200 3500 50  0001 C CNN
+	1    4200 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R2
+U 1 1 4611155E
+P 5400 4100
+F 0 "R2" H 5250 4159 59  0000 L BNN
+F 1 "2M" H 5250 3970 59  0000 L BNN
+F 2 "bandido:0204_7" H 5400 4100 50  0001 C CNN
+F 3 "" H 5400 4100 50  0001 C CNN
+	1    5400 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R3
+U 1 1 E1AFD295
+P 6200 4300
+F 0 "R3" H 6050 4359 59  0000 L BNN
+F 1 "2M" H 6050 4170 59  0000 L BNN
+F 2 "bandido:0204_7" H 6200 4300 50  0001 C CNN
+F 3 "" H 6200 4300 50  0001 C CNN
+	1    6200 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R4
+U 1 1 77D2B974
+P 5400 2600
+F 0 "R4" H 5250 2659 59  0000 L BNN
+F 1 "560R" H 5250 2470 59  0000 L BNN
+F 2 "bandido:0204_7" H 5400 2600 50  0001 C CNN
+F 3 "" H 5400 2600 50  0001 C CNN
+	1    5400 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R5
+U 1 1 A4C6134E
+P 4700 4000
+F 0 "R5" H 4550 4059 59  0000 L BNN
+F 1 "220R" H 4550 3870 59  0000 L BNN
+F 2 "bandido:0204_7" H 4700 4000 50  0001 C CNN
+F 3 "" H 4700 4000 50  0001 C CNN
+	1    4700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R6
+U 1 1 6C6B19D5
+P 8400 3200
+F 0 "R6" H 8250 3259 59  0000 L BNN
+F 1 "2K2" H 8250 3070 59  0000 L BNN
+F 2 "bandido:0204_7" H 8400 3200 50  0001 C CNN
+F 3 "" H 8400 3200 50  0001 C CNN
+	1    8400 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R7
+U 1 1 830F9C34
+P 5400 2300
+F 0 "R7" H 5250 2359 59  0000 L BNN
+F 1 "560R" H 5250 2170 59  0000 L BNN
+F 2 "bandido:0204_7" H 5400 2300 50  0001 C CNN
+F 3 "" H 5400 2300 50  0001 C CNN
+	1    5400 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R8
+U 1 1 AEDECB6C
+P 5400 2900
+F 0 "R8" H 5250 2959 59  0000 L BNN
+F 1 "560R" H 5250 2770 59  0000 L BNN
+F 2 "bandido:0204_7" H 5400 2900 50  0001 C CNN
+F 3 "" H 5400 2900 50  0001 C CNN
+	1    5400 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:R-EU_0204_7 R9
+U 1 1 C88451BB
+P 5700 3800
+F 0 "R9" H 5550 3859 59  0000 L BNN
+F 1 "100R" H 5550 3670 59  0000 L BNN
+F 2 "bandido:0204_7" H 5700 3800 50  0001 C CNN
+F 3 "" H 5700 3800 50  0001 C CNN
+	1    5700 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:CPOL-EUE5-4 C1
+U 1 1 4B8352A6
+P 4400 4200
+F 0 "C1" H 4445 4219 59  0000 L BNN
+F 1 "47uf" H 4445 4019 59  0000 L BNN
+F 2 "bandido:E5-4" H 4400 4200 50  0001 C CNN
+F 3 "" H 4400 4200 50  0001 C CNN
+	1    4400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:CPOL-EUE5-4 C2
+U 1 1 54BE400D
+P 8900 4000
+F 0 "C2" H 8945 4019 59  0000 L BNN
+F 1 "10uf" H 8945 3819 59  0000 L BNN
+F 2 "bandido:E5-4" H 8900 4000 50  0001 C CNN
+F 3 "" H 8900 4000 50  0001 C CNN
+	1    8900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:C-EU025-024X044 C3
+U 1 1 0CFCFE7B
+P 6800 3500
+F 0 "C3" H 6860 3515 59  0000 L BNN
+F 1 "100nf" H 6860 3315 59  0000 L BNN
+F 2 "bandido:C025-024X044" H 6800 3500 50  0001 C CNN
+F 3 "" H 6800 3500 50  0001 C CNN
+	1    6800 3500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:CPOL-EUE5-4 C4
+U 1 1 93383B4F
+P 5100 4100
+F 0 "C4" H 5145 4119 59  0000 L BNN
+F 1 "1uf" H 5145 3919 59  0000 L BNN
+F 2 "bandido:E5-4" H 5100 4100 50  0001 C CNN
+F 3 "" H 5100 4100 50  0001 C CNN
+	1    5100 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VCC #P+01
+U 1 1 BCDF72C5
+P 4700 3100
+F 0 "#P+01" H 4700 3100 50  0001 C CNN
+F 1 "VCC" V 4600 3000 59  0000 L BNN
+F 2 "" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND01
+U 1 1 DB8695AC
+P 3000 4300
+F 0 "#GND01" H 3000 4300 50  0001 C CNN
+F 1 "GND" H 2900 4200 59  0000 L BNN
+F 2 "" H 3000 4300 50  0001 C CNN
+F 3 "" H 3000 4300 50  0001 C CNN
+	1    3000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND02
+U 1 1 13A376EC
+P 4700 4800
+F 0 "#GND02" H 4700 4800 50  0001 C CNN
+F 1 "GND" H 4600 4700 59  0000 L BNN
+F 2 "" H 4700 4800 50  0001 C CNN
+F 3 "" H 4700 4800 50  0001 C CNN
+	1    4700 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND03
+U 1 1 7679BDCC
+P 4400 4800
+F 0 "#GND03" H 4400 4800 50  0001 C CNN
+F 1 "GND" H 4300 4700 59  0000 L BNN
+F 2 "" H 4400 4800 50  0001 C CNN
+F 3 "" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VCC #P+02
+U 1 1 339DE9D3
+P 2900 3600
+F 0 "#P+02" H 2900 3600 50  0001 C CNN
+F 1 "VCC" V 2800 3500 59  0000 L BNN
+F 2 "" H 2900 3600 50  0001 C CNN
+F 3 "" H 2900 3600 50  0001 C CNN
+	1    2900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VCC #P+03
+U 1 1 00F05DF6
+P 4000 4000
+F 0 "#P+03" H 4000 4000 50  0001 C CNN
+F 1 "VCC" V 3900 3900 59  0000 L BNN
+F 2 "" H 4000 4000 50  0001 C CNN
+F 3 "" H 4000 4000 50  0001 C CNN
+	1    4000 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND04
+U 1 1 D896219B
+P 5400 4500
+F 0 "#GND04" H 5400 4500 50  0001 C CNN
+F 1 "GND" H 5300 4400 59  0000 L BNN
+F 2 "" H 5400 4500 50  0001 C CNN
+F 3 "" H 5400 4500 50  0001 C CNN
+	1    5400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND05
+U 1 1 EF27308A
+P 6200 4700
+F 0 "#GND05" H 6200 4700 50  0001 C CNN
+F 1 "GND" H 6100 4600 59  0000 L BNN
+F 2 "" H 6200 4700 50  0001 C CNN
+F 3 "" H 6200 4700 50  0001 C CNN
+	1    6200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:BC337 T2
+U 1 1 9E4548F9
+P 6100 3800
+F 0 "T2" H 6300 3900 59  0000 L BNN
+F 1 "BC337" H 6300 3800 59  0000 L BNN
+F 2 "bandido:SOT54A" H 6100 3800 50  0001 C CNN
+F 3 "" H 6100 3800 50  0001 C CNN
+	1    6100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VCC #P+04
+U 1 1 A7FDB2D8
+P 5400 3200
+F 0 "#P+04" H 5400 3200 50  0001 C CNN
+F 1 "VCC" V 5300 3100 59  0000 L BNN
+F 2 "" H 5400 3200 50  0001 C CNN
+F 3 "" H 5400 3200 50  0001 C CNN
+	1    5400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VCC #P+05
+U 1 1 33ACA7EC
+P 6200 3200
+F 0 "#P+05" H 6200 3200 50  0001 C CNN
+F 1 "VCC" V 6100 3100 59  0000 L BNN
+F 2 "" H 6200 3200 50  0001 C CNN
+F 3 "" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND06
+U 1 1 A07C0193
+P 5100 4500
+F 0 "#GND06" H 5100 4500 50  0001 C CNN
+F 1 "GND" H 5000 4400 59  0000 L BNN
+F 2 "" H 5100 4500 50  0001 C CNN
+F 3 "" H 5100 4500 50  0001 C CNN
+	1    5100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VDD #VDD01
+U 1 1 B5CBCE33
+P 6500 3900
+F 0 "#VDD01" H 6500 3900 50  0001 C CNN
+F 1 "VDD" V 6400 3800 59  0000 L BNN
+F 2 "" H 6500 3900 50  0001 C CNN
+F 3 "" H 6500 3900 50  0001 C CNN
+	1    6500 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VDD #VDD02
+U 1 1 7C316FBA
+P 4800 2400
+F 0 "#VDD02" H 4800 2400 50  0001 C CNN
+F 1 "VDD" V 4700 2300 59  0000 L BNN
+F 2 "" H 4800 2400 50  0001 C CNN
+F 3 "" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND07
+U 1 1 9CDE76EF
+P 6500 2700
+F 0 "#GND07" H 6500 2700 50  0001 C CNN
+F 1 "GND" H 6400 2600 59  0000 L BNN
+F 2 "" H 6500 2700 50  0001 C CNN
+F 3 "" H 6500 2700 50  0001 C CNN
+	1    6500 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND08
+U 1 1 DF24F9E8
+P 7100 4200
+F 0 "#GND08" H 7100 4200 50  0001 C CNN
+F 1 "GND" H 7000 4100 59  0000 L BNN
+F 2 "" H 7100 4200 50  0001 C CNN
+F 3 "" H 7100 4200 50  0001 C CNN
+	1    7100 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VDD #VDD03
+U 1 1 8E2EEF55
+P 8100 4200
+F 0 "#VDD03" H 8100 4200 50  0001 C CNN
+F 1 "VDD" V 8000 4100 59  0000 L BNN
+F 2 "" H 8100 4200 50  0001 C CNN
+F 3 "" H 8100 4200 50  0001 C CNN
+	1    8100 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:VDD #VDD04
+U 1 1 6F5F7475
+P 7100 3700
+F 0 "#VDD04" H 7100 3700 50  0001 C CNN
+F 1 "VDD" V 7000 3600 59  0000 L BNN
+F 2 "" H 7100 3700 50  0001 C CNN
+F 3 "" H 7100 3700 50  0001 C CNN
+	1    7100 3700
+	1    0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:PHOTOCELLPTH-KIT R10
+U 1 1 30D18E4B
+P 8900 3500
+F 0 "R10" H 8700 3620 59  0000 L BNN
+F 1 "LDR" H 8700 3300 59  0000 L BNN
+F 2 "bandido:PHOTOCELL-KIT" H 8900 3500 50  0001 C CNN
+F 3 "" H 8900 3500 50  0001 C CNN
+	1    8900 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND09
+U 1 1 928DF91D
+P 6800 4200
+F 0 "#GND09" H 6800 4200 50  0001 C CNN
+F 1 "GND" H 6700 4100 59  0000 L BNN
+F 2 "" H 6800 4200 50  0001 C CNN
+F 3 "" H 6800 4200 50  0001 C CNN
+	1    6800 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND010
+U 1 1 845C69E3
+P 8200 4700
+F 0 "#GND010" H 8200 4700 50  0001 C CNN
+F 1 "GND" H 8100 4600 59  0000 L BNN
+F 2 "" H 8200 4700 50  0001 C CNN
+F 3 "" H 8200 4700 50  0001 C CNN
+	1    8200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:SPEAKER_AL11P SP1
+U 1 1 A8F2F471
+P 8700 4500
+F 0 "SP1" H 8550 4750 59  0000 L BNN
+F 1 "8ohms" H 8550 4375 59  0000 L BNN
+F 2 "bandido:AL11P" H 8700 4500 50  0001 C CNN
+F 3 "" H 8700 4500 50  0001 C CNN
+	1    8700 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L bandido-eagle-import:CPOL-EUE5-4 C5
+U 1 1 426611EA
+P 3700 2500
+F 0 "C5" H 3745 2519 59  0000 L BNN
+F 1 "1uf" H 3745 2319 59  0000 L BNN
+F 2 "bandido:E5-4" H 3700 2500 50  0001 C CNN
+F 3 "" H 3700 2500 50  0001 C CNN
+	1    3700 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:VCC #P+06
+U 1 1 B0F39303
+P 3700 2100
+F 0 "#P+06" H 3700 2100 50  0001 C CNN
+F 1 "VCC" V 3600 2000 59  0000 L BNN
+F 2 "" H 3700 2100 50  0001 C CNN
+F 3 "" H 3700 2100 50  0001 C CNN
+	1    3700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:GND #GND011
+U 1 1 19DA8D48
+P 3700 2900
+F 0 "#GND011" H 3700 2900 50  0001 C CNN
+F 1 "GND" H 3600 2800 59  0000 L BNN
+F 2 "" H 3700 2900 50  0001 C CNN
+F 3 "" H 3700 2900 50  0001 C CNN
+	1    3700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:M025MM BAT9V1
+U 1 1 D1F29BC6
+P 3100 2600
+F 0 "BAT9V1" H 3000 2830 59  0000 L BNN
+F 1 "M025MM" H 3000 2400 59  0000 L BNN
+F 2 "bandido:SCREWTERMINAL-5MM-2" H 3100 2600 50  0001 C CNN
+F 3 "" H 3100 2600 50  0001 C CNN
+	1    3100 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bandido-eagle-import:A5L-LOC #PAPERTOYS1
+U 1 1 A2B83A17
+P 2400 6200
+F 0 "#PAPERTOYS1" H 2400 6200 50  0001 C CNN
+F 1 "PAPERTOYS" H 2400 6200 50  0001 C CNN
+F 2 "" H 2400 6200 50  0001 C CNN
+F 3 "" H 2400 6200 50  0001 C CNN
+	1    2400 6200
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 5700 0    85   ~ 17
+PaperToys
+Text Notes 9000 4700 0    59   ~ 0
+buzzer
+$EndSCHEMATC
